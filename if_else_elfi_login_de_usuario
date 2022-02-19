@@ -1,0 +1,11 @@
+usuario = input("Informe o nome de usuario: ")
+
+if (usuario == "Flavio"):
+    print("Bem vindo Flavio!")
+else:
+    if(usuario == "Douglas"):
+        print("Bem vindo Douglas!")
+    elif(usuario == "Nico"):
+        print("Bem vindo Nico!")
+    else: print("Usuario nao identificado.")
+print("Fim.")
